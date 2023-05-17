@@ -141,12 +141,12 @@ header {
 }
 
 .contenedor-img img {
-  transition: transform 0.5s ease-in-out;
+  transition: transform 0.35s ease-in-out;
 }
 
 .contenedor-img:hover img {
   transform: scale(1.25);
-  filter: grayscale(80%);
+  filter:blur(1.7px);
 }
 
 
